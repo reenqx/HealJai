@@ -1,0 +1,80 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ติดต่อฉุกเฉิน",
+        "weight": "bold",
+        "size": "lg",
+        "align": "center",
+        "color": "#222222"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "ช่องทางติดต่อจิตแพทย์ / ฮอตไลน์",
+        "weight": "bold",
+        "size": "md",
+        "color": "#333333",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "• สายด่วนสุขภาพจิต 1323\n• รพ.จิตเวช xxxxx 02-xxx-xxxx\n• คลินิกสุขภาพจิต yyyyy 0x-xxx-xxxx",
+        "wrap": true,
+        "size": "sm",
+        "color": "#555555"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "โรงพยาบาลใกล้ฉัน (Google Maps)",
+        "weight": "bold",
+        "size": "md",
+        "color": "#333333",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "กดส่งโลเคชันเพื่อหาที่ใกล้คุณ หรือเปิดแผนที่จากลิงก์ด้านล่าง",
+        "wrap": true,
+        "size": "sm",
+        "color": "#666666"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "action": {
+          "type": "uri",
+          "label": "โทร 1323",
+          "uri": "tel:1323"
+        }
+      },
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {
+          "type": "uri",
+          "label": "โรงพยาบาลจิตเวชใกล้ฉัน",
+          "uri": "https://www.google.com/maps/search/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B9%80%E0%B8%A7%E0%B8%8A%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99"
+        }
+      }
+    ]
+  }
+}
