@@ -1,2 +1,3 @@
 ## HealJaii UX/UI
-moodtracker.json flexmessage สำหรับเก็บอารมณ์แต่ละวัน
+1.moodtracker.json -สำหรับเก็บอารมณ์แต่ละวัน
+2.qouteNmusic.json -ส่งคำคมกับเพลง(เพลง/ศิลปิน)
