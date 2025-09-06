@@ -1,0 +1,192 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "วันนี้รู้สึกยังไงบ้าง?",
+            "weight": "bold",
+            "size": "lg",
+            "align": "center"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=joyful",
+                  "label": "ดีใจ"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/6e/19/ef/6e19efc9376eb2a400395cb2a7f53a4f.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ดีใจ",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=happy",
+                  "label": "สุข"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/dc/d3/af/dcd3af51ff312a29100672c2727341ad.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "สุข",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=calm",
+                  "label": "สงบ"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/d5/d9/f1/d5d9f1b46b834337d46acdf89e330a14.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "สงบ",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=bored",
+                  "label": "เบื่อ"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/39/cc/5f/39cc5f06f066943d9f9d3b5e8ac42336.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "เบื่อ",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=sad",
+                  "label": "เศร้า"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/f1/42/c4/f142c4dfbc3dff94527f5e2765b85f10.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "เศร้า",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "alignItems": "center",
+                "spacing": "xs",
+                "action": {
+                  "type": "postback",
+                  "data": "mood=angry",
+                  "label": "โกรธ"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.pinimg.com/736x/56/2c/0e/562c0e326af59f7037bce8c04175dffc.jpg",
+                    "size": "40px",
+                    "aspectMode": "cover",
+                    "aspectRatio": "1:1"
+                  },
+                  {
+                    "type": "text",
+                    "text": "โกรธ",
+                    "size": "xs",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
