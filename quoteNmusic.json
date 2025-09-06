@@ -1,0 +1,61 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ฮีลใจประจำวัน",
+        "weight": "bold",
+        "size": "lg",
+        "align": "center",
+        "color": "#333333"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "\" ใส่ข้อความคำคมจาก AI ที่นี่ \"",
+            "wrap": true,
+            "size": "md",
+            "align": "center",
+            "color": "#555555"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "เพลงของคุณ",
+        "weight": "bold",
+        "size": "md",
+        "color": "#2C6CB2",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "เพลง: Lost Stars",
+        "size": "sm",
+        "weight": "bold",
+        "color": "#333333",
+        "wrap": true,
+        "margin": "sm"
+      },
+      {
+        "type": "text",
+        "text": "ศิลปิน: Adam Levine",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true
+      }
+    ]
+  }
+}
