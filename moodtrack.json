@@ -61,7 +61,7 @@
                 "action": {
                   "type": "postback",
                   "data": "mood=happy",
-                  "label": "สุข"
+                  "label": "ดี"
                 },
                 "contents": [
                   {
@@ -73,7 +73,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "สุข",
+                    "text": "ดี",
                     "size": "xs",
                     "align": "center"
                   }
